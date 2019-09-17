@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchFlightBuilder should render correctly 1`] = `
+<div
+  className="Search-flight-builder"
+>
+  <FilterLayout
+    params={
+      Object {
+        "adults": 2,
+        "cabinClass": "Economy",
+        "destinationPlace": "LOND",
+        "groupPricing": true,
+        "inboundDate": "2019-09-17",
+        "originPlace": "EDI",
+        "outboundDate": "2019-09-16",
+        "pageIndex": 0,
+        "pageSize": 5,
+        "stops": 0,
+      }
+    }
+  />
+  <Menu />
+  <BpkLargeSpinner
+    alignToButton={false}
+    className="Search-flight-builder--spinner"
+    type="primary"
+  />
+  
+</div>
+`;

@@ -1,0 +1,47 @@
+@import '~bpk-mixins';
+
+.Segment {
+  display: flex;
+  padding: 0 0 $bpk-spacing-sm 0;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $bpk-color-white;
+
+  &__left {
+    display: flex;
+    align-content: flex-start;
+
+    &-item {
+      flex: 0 0 3em;
+
+      &--place {
+        color: $bpk-color-gray-500;
+      }
+    }
+
+    &-item--img-container {
+      display: flex;
+      align-items: center;
+      flex: 0 0 3em;
+
+      &-img {
+        display: block;
+        margin: 0 auto;
+        fill: $bpk-color-gray-300;
+      }
+    }
+  }
+
+  &__right {
+    align-content: flex-end;
+
+    &--stop {
+      color: $bpk-color-green-600;
+    }
+  }
+
+  &__flight-logo {
+    height: 1.6em;
+    border-radius: .3em;
+  }
+}

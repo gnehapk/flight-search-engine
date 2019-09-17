@@ -1,0 +1,28 @@
+@import '~bpk-mixins';
+
+.Flight {
+  display: flex;
+  margin: $bpk-spacing-sm;
+  flex-direction: column;
+  background-color: $bpk-color-white;
+
+  &__agent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &__left-section,
+    &__right-section {
+      display: block;
+
+      &--img {
+        height: 2.6em;
+      }
+
+      &--price {
+        padding: .2em;
+      }
+    }
+  }
+}

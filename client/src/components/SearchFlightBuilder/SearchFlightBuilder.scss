@@ -1,0 +1,22 @@
+@import '~bpk-mixins';
+
+.Search-flight-builder {
+  height: 100vh;
+  background-color: $bpk-color-gray-100;
+  overflow: auto;
+
+  &--spinner {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+  }
+
+  &--loading {
+    padding: $bpk-spacing-sm;
+  }
+
+  &__error-msg {
+    margin: 0 auto;
+    padding: $bpk-spacing-sm;
+  }
+}

@@ -1,0 +1,8 @@
+@import '~bpk-mixins';
+
+.App {
+  &__main {
+    height: 100%;
+    //padding: $bpk-spacing-sm;
+  }
+}

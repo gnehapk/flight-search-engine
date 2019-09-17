@@ -1,0 +1,32 @@
+@import '~bpk-mixins';
+
+.Menu {
+  display: flex;
+  padding: $bpk-spacing-sm;
+  justify-content: space-between;
+  background-color: $bpk-color-white;
+  color: $bpk-color-blue-500;
+
+  @include bpk-box-shadow-sm;
+
+  &__left {
+    &-option {
+      padding: 0 $bpk-spacing-sm 0 0;
+    }
+  }
+
+  &__right {
+    align-items: flex-end;
+
+    &-alert-icon {
+      display: inline-block;
+      vertical-align: middle;
+      fill: $bpk-color-blue-500;
+    }
+
+    &-option {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+}
